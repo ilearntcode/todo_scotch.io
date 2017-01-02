@@ -26,3 +26,7 @@ You can not clone an existing repository into a directory that isn't empty. To d
 * git remote add origin PATH/TO/REPO
 * git pull origin master
 >
+
+## View git config
+You can use git config --list , or look at your ~/.gitconfig file. Local config will be in your repository's .git/config file. is one way to go. I usually just open up .gitconfig though
+
